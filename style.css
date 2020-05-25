@@ -1,4 +1,23 @@
 /*
+Universal Style
+*/
+body {
+    background-color: black;
+}
+img {
+    max-width: 100%;
+}
+h1 {
+    font-weight: normal;
+}
+h2 {
+    font-weight: normal;
+}
+h3 {
+    font-weight: normal;
+}
+
+/*
 Generic Nav Style
  */
 nav {
@@ -9,22 +28,23 @@ nav {
     align-items: center;
 }
 nav a:link {
-    color: #000;
+    color: #ffffff;
 }
 nav a:hover {
-    color: #000;
+    color: #ffffff;
 }
 nav a:active {
-    color: #000;
+    color: #ffffff;
 }
 nav a:visited {
-    color: #000;
+    color: #ffffff;
 }
+
 /*
 Nav Scalability
  */
 @media (max-width: 850px) {
-    nav {font-size: 2.5em;}
+    nav {font-size: 2em;}
 }
 @media (max-width: 750px) {
     .nav-image {display: none;}
@@ -65,9 +85,39 @@ Splash Page Style
 /*
 Generic Content Style
 */
-.content-title {
-    font-family: 'Germania One', cursive;
+#content {
+    margin: 2.5% 5%;
+    padding: 1% 2.5%;
+    background-color: white;
 }
 .content-description {
     font-family: 'Alegreya', Serif;
+    font-size: 1em;
+    padding: 1% 2.5%;
+}
+.content-title {
+    font-size: 1.5em;
+    font-family: 'Germania One', cursive;
+}
+
+/*
+About Style
+ */
+#about-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+#about-picture {
+    max-width: 50%;
+    max-height: 50vh;
+}
+#email {
+    font-family: "Germania One",cursive;
+    color: fuchsia;
+    font-size: 1.25em;
+}
+@media (max-width: 750px) {
+    #about-content {
+        flex-wrap: wrap;
+    }
 }

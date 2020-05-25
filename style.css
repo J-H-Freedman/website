@@ -6,12 +6,21 @@ nav {
     align-items: center;
 
 }
-
+nav a:link {
+    color: #fff;
+}
+nav a:hover {
+    color: #fff;
+}
+nav a:active {
+    color: #fff;
+}
 nav a:visited {
     color: #fff;
 }
 
 /*----------*/
+
 #splash {
     background-color: black;
     height: 100%;
@@ -29,7 +38,9 @@ nav a:visited {
     width: 100%;
     bottom: 10%;
 }
+
 /*----------*/
+
 .content-title {
     font-family: 'Germania One', cursive;
 }

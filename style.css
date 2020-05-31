@@ -142,6 +142,7 @@ Scalability
     nav {font-size: 2em;}
     #about-content {
         flex-wrap: wrap;
+    }
 }
 @media (min-width: 1200px) {
     #content {

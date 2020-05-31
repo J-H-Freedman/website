@@ -41,17 +41,6 @@ nav a:visited {
 }
 
 /*
-Nav Scalability
- */
-@media (max-width: 850px) {
-    nav {font-size: 2em;}
-}
-@media (max-width: 750px) {
-    .nav-image {display: none;}
-    nav {font-size: 2em;}
-}
-
-/*
 Splash Page Style
 */
 #splash {
@@ -62,7 +51,7 @@ Splash Page Style
     margin: auto;
     display: block;
     height: 80vh;
-    max-width: 100vw;
+    max-width: 80%;
 }
 #bottom-nav {
     position: fixed;
@@ -91,7 +80,7 @@ Generic Content Style
     background-color: white;
 }
 .content-description {
-    font-family: 'Alegreya', Serif;
+    font-family: 'Alegreya', serif;
     font-size: 1em;
     padding: 1% 2.5%;
 }
@@ -116,8 +105,46 @@ About Style
     color: fuchsia;
     font-size: 1.25em;
 }
+
+/*
+Updates Style
+ */
+.update-section {
+    padding: 2.5% 5%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.update-article {
+    font-family: 'Alegreya', serif;
+    width: 70%;
+    font-size: 1em;
+}
+.update-date {
+    font-family: "Germania One", cursive;
+    font-size: 2em;
+}
+.update-divider {
+    font-family: "Germania One", cursive;
+    text-align: center;
+    font-size: 3em;
+    color: fuchsia;
+}
+
+/*
+Scalability
+ */
+@media (max-width: 850px) {
+    nav {font-size: 2em;}
+}
 @media (max-width: 750px) {
+    .nav-image {display: none;}
+    nav {font-size: 2em;}
     #about-content {
         flex-wrap: wrap;
+}
+@media (min-width: 1200px) {
+    #content {
+        margin: 0 20%;
     }
 }

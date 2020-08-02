@@ -171,6 +171,16 @@ media thumbnails
     border-color: black;
 }
 
+/*
+Video
+ */
+#video-container {
+    width: 100%;
+}
+
+#video {
+    width: auto;
+}
 
 /*
 Footer

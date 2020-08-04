@@ -12,7 +12,7 @@
 <main>
     <header>
         <nav>
-            <img src="../images/logo_white.svg" alt="logo" class="nav-image">
+            <img src="../images/icons/logo_white.svg" alt="logo" class="nav-image">
             <a href="../gallery/index.html">Gallery</a>
             <a href="../theater/index.html">Theater</a>
             <a href="../updates.html">Updates</a>
@@ -20,17 +20,53 @@
         </nav>
     </header>
     <div id="content">
+        <!-- Gallery container -->
+        <div id="gallery-container">
+            <!-- images for gallery -->
+            <div class="gallery-images">
+                <img src="../images/pages/sad.png">
+                <h1 class="gallery-title">title</h1>
+                <p class="gallery-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis consequatur cumque distinctio harum illum in ipsam iure minima molestias, neque quaerat, quidem quis quod, quos ratione repellat sed similique.
+                </p>
+            </div>
+
+            <div class="gallery-images">
+                <img src="../images/pages/transport.png">
+                <h1 class="gallery-title">title</h1>
+                <p class="gallery-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis consequatur cumque distinctio harum illum in ipsam iure minima molestias, neque quaerat, quidem quis quod, quos ratione repellat sed similique.
+                </p>
+            </div>
+
+            <div class="gallery-images">
+                <img src="../images/pages/wet.png">
+                <h1 class="gallery-title">title</h1>
+                <p class="gallery-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis consequatur cumque distinctio harum illum in ipsam iure minima molestias, neque quaerat, quidem quis quod, quos ratione repellat sed similique.
+                </p>
+            </div>
+        </div>
+
+        <!-- The dots/circles -->
+        <div id="gallery-navigation">
+            <a id="prev" onclick="plusSlides(-1)"><img src="../images/icons/back-arrow.svg"></a>
+            <span class="dot" onclick="currentSlide(1)"><img src="../images/icons/dot-full.svg"></span>
+            <span class="dot" onclick="currentSlide(2)"><img src="../images/icons/dot-full.svg"></span>
+            <span class="dot" onclick="currentSlide(3)"><img src="../images/icons/dot-full.svg"></span>
+            <a id="next" onclick="plusSlides(1)"><img src="../images/icons/next-arrow.svg"></a>
+        </div>
 
     </div>
     <footer>
         <a href="mailto:jacob@jhfreedman.com">
-            <img src="../images/email-white.svg" alt="Email me">
+            <img src="../images/icons/email-white.svg" alt="Email me">
         </a>
         <a href="https://www.artpal.com/jhfreedman">
-            <img src="../images/shop-white.svg" alt="Buy prints">
+            <img src="../images/icons/shop-white.svg" alt="Buy prints">
         </a>
         <a href="https://vimeo.com/jhfreedman">
-            <img src="../images/videocam-white.svg" alt="View videos">
+            <img src="../images/icons/videocam-white.svg" alt="View videos">
         </a>
     </footer>
 </main>

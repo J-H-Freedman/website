@@ -176,10 +176,34 @@ Video
  */
 #video-container {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-#video {
-    width: auto;
+iframe {
+    width: 640px;
+    height: 360px;
+    border: none;
+}
+
+/*
+Gallery
+ */
+
+#gallery-container {
+    max-width: 100vw;
+    max-height: 100vh;
+    position: relative;
+    margin: auto;
+}
+
+.gallery-images {
+    display: none;
+}
+
+#gallery-navigation {
+    display: flex;
+    justify-content: center;
 }
 
 /*

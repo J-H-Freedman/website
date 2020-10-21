@@ -1,26 +1,41 @@
 const images = document.getElementsByClassName("gallery-images");
-var count = 1;
-var imageCount = document.getElementById(count);
+let count = 1;
+
+document.getElementById(count).style.display = "flex";
 
 function refreshImage() {
-    for (i = 0; i < images.length; i++) {
+    for (let i = 0; i < images.length; i++) {
         images[i].style.display = "none";
     }
-    imageCount.style.display = "block";
+
+    if (count < 1) {
+        count = images.length;
+    }else if (count > images.length) {
+        count = 1;
+    }
+
+    let imageCount = document.getElementById(count);
+    imageCount.style.display = "flex";
 }
 
 function previousImage() {
     count--;
     refreshImage();
-    if (count < 1) {
-        count = images.length
-    }
 }
 
 function nextImage() {
     count++;
     refreshImage();
-    if (count > images.length) {
-        count = 1
+}
+
+function shortcut(e) {
+    if (e.which === 37){
+        previousImage();
+    }
+
+    if (e.which === 39) {
+        nextImage();
     }
 }
+
+document.addEventListener("keyup", shortcut, false);

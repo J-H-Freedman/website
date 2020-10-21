@@ -48,12 +48,14 @@
             </div>
         </div>
 
+        <script src="gallery-slides.js">refreshImage()</script>
+
         <!-- The dots/circles -->
         <div id="gallery-navigation">
             <a id="prev" onclick="previousImage()"><img src="../images/icons/back-arrow.svg"></a>
-            <span class="dot" onclick="count=1"><img src="../images/icons/dot-full.svg"></span>
-            <span class="dot" onclick="count=2"><img src="../images/icons/dot-full.svg"></span>
-            <span class="dot" onclick="count=3"><img src="../images/icons/dot-full.svg"></span>
+            <span class="dot" onclick="count=1; refreshImage()"><img src="../images/icons/dot-full.svg"></span>
+            <span class="dot" onclick="count=2; refreshImage()"><img src="../images/icons/dot-full.svg"></span>
+            <span class="dot" onclick="count=3; refreshImage()"><img src="../images/icons/dot-full.svg"></span>
             <a id="next" onclick="nextImage()"><img src="../images/icons/next-arrow.svg"></a>
         </div>
 

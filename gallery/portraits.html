@@ -21,45 +21,49 @@
     </header>
     <div id="content">
         <!-- Gallery container -->
-        <div id="gallery-container">
+        <div id="slides-container">
             <!-- images for gallery -->
-            <div class="gallery-images" id="1">
-                <img src="../images/pages/sad.png">
-                <h1 class="gallery-title">title</h1>
-                <p class="gallery-description">
+
+            <!-- Larissa -->
+            <div class="slide" id="1">
+                <img class="gallery-image" src="../images/portraits/larissa-nonstyle.jpg">
+                <h1 class="content-title">title</h1>
+                <p class="content-description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis consequatur cumque distinctio harum illum in ipsam iure minima molestias, neque quaerat, quidem quis quod, quos ratione repellat sed similique.
                 </p>
             </div>
 
-            <div class="gallery-images" id="2">
-                <img src="../images/pages/transport.png">
-                <h1 class="gallery-title">title</h1>
-                <p class="gallery-description">
+            <!-- Dav -->
+            <div class="slide" id="2">
+                <img class="gallery-image" src="../images/portraits/Dav.png">
+                <h1 class="content-title">title</h1>
+                <p class="content-description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis consequatur cumque distinctio harum illum in ipsam iure minima molestias, neque quaerat, quidem quis quod, quos ratione repellat sed similique.
                 </p>
             </div>
 
-            <div class="gallery-images" id="3">
-                <img src="../images/pages/wet.png">
-                <h1 class="gallery-title">title</h1>
-                <p class="gallery-description">
+            <!-- Sema -->
+            <div class="slide" id="3">
+                <img class="gallery-image" src="../images/portraits/Sema.png">
+                <h1 class="content-title">title</h1>
+                <p class="content-description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis consequatur cumque distinctio harum illum in ipsam iure minima molestias, neque quaerat, quidem quis quod, quos ratione repellat sed similique.
                 </p>
             </div>
         </div>
 
-        <script src="../javascript/slides.js">refreshImage()</script>
-
-        <!-- The dots/circles -->
-        <div id="gallery-navigation">
-            <a id="prev" onclick="previousImage()"><img src="../images/icons/back-arrow.svg"></a>
-            <span class="dot" onclick="count=1; refreshImage()"><img src="../images/icons/dot-full.svg"></span>
-            <span class="dot" onclick="count=2; refreshImage()"><img src="../images/icons/dot-full.svg"></span>
-            <span class="dot" onclick="count=3; refreshImage()"><img src="../images/icons/dot-full.svg"></span>
-            <a id="next" onclick="nextImage()"><img src="../images/icons/next-arrow.svg"></a>
+        <!-- slide navigation -->
+        <script src="../javascript/slides.js">refreshSlide()</script>
+        <div id="slides-navigation">
+            <a id="prev" onclick="previousSlide()"><img src="../images/icons/back-arrow.svg"></a>
+            <a class="dot" onclick="count=1; refreshSlide()"><img src="../images/icons/dot-full.svg"></a>
+            <a class="dot" onclick="count=2; refreshSlide()"><img src="../images/icons/dot-full.svg"></a>
+            <a class="dot" onclick="count=3; refreshSlide()"><img src="../images/icons/dot-full.svg"></a>
+            <a id="next" onclick="nextSlide()"><img src="../images/icons/next-arrow.svg"></a>
         </div>
 
     </div>
+
     <footer>
         <a href="mailto:jacob@jhfreedman.com">
             <img src="../images/icons/email-white.svg" alt="Email me">

@@ -1,3 +1,5 @@
+//SLIDES
+
 // Read slides
 const slides = document.getElementsByClassName("slide");
 
@@ -36,14 +38,34 @@ function nextSlide() {
     refreshSlide();
 }
 
-// <- and -> keys for navigation
+// GET TOUCHSCREEN SWIPE X
+
+//x0 position to calculate Δx
+function x0(e) {
+    return e.clientX;
+}
+//x1 position to calculate Δx
+function x1(e) {
+    return e.clientX;
+}
+// calculate Δx
+let deltaX = x0() - x1();
+
+// SHORTCUT NAVIGATION
+
 function shortcut(e) {
-    if (e.which === 37){
+    //arrow key left or swipe left
+    if (e.which === 37 || deltaX < -100){
         previousSlide();
     }
-
-    if (e.which === 39) {
+    //arrow key right or swipe right
+    if (e.which === 39 || deltaX > 100) {
         nextSlide();
     }
+
 }
+
+//Event listeners for shortcuts
 document.addEventListener("keyup", shortcut, false);
+document.addEventListener('touchstart', x0, false);
+document.addEventListener('touchend', x1, false);

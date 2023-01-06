@@ -110,11 +110,11 @@ media thumbnails
     display: flex;
 
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .thumbnail{
-    width: 20%;
+    width: 30%;
     align-self: flex-end;
 }
 
@@ -285,6 +285,11 @@ footer a{
 /*
 Scalability
  */
+@media (min-width: 1200px) {
+    #content {
+        margin: 0 20%;
+    }
+}
 @media (max-width: 850px) {
     nav {font-size: 2em;}
 }
@@ -300,9 +305,7 @@ Scalability
     .content-title {
         font-size: 1em;
     }
-}
-@media (min-width: 1200px) {
-    #content {
-        margin: 0 20%;
+    .thumbnail {
+        width: 100%;
     }
 }

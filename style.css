@@ -114,7 +114,7 @@ media thumbnails
     justify-content: space-evenly;
 }
 .thumbnail{
-    width: 30%;
+    width: 40%;
     align-self: flex-end;
 }
 

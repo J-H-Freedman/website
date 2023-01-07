@@ -18,16 +18,16 @@ h3 {
 }
 
 a:link {
-    color: fuchsia;
+    color: magenta;
 }
 a:hover {
-    color: fuchsia;
+    color: magenta;
 }
 a:active {
-    color: fuchsia;
+    color: magenta;
 }
 a:visited {
-    color: fuchsia;
+    color:darkmagenta;
 }
 
 /*
@@ -65,7 +65,7 @@ About Style
 }
 #email {
     font-family: "Germania One",cursive;
-    color: fuchsia;
+    color: magenta;
     font-size: 1.25em;
 }
 
@@ -96,7 +96,7 @@ Updates Style
     font-family: "Germania One", cursive;
     text-align: center;
     font-size: 3em;
-    color: fuchsia;
+    color: magenta;
 }
 
 /*
@@ -112,6 +112,13 @@ media thumbnails
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-bottom: 2em;
+}
+.section-title{
+    font-size: 2.5em;
+    font-family: 'Germania One', cursive;
+    text-align: center;
+    padding-top: .5em;
 }
 .thumbnail{
     width: 40%;
@@ -119,7 +126,7 @@ media thumbnails
 }
 
 .thumbnail-title {
-    color: fuchsia;
+    color: magenta;
     text-align: center;
     font-family: "Germania One", cursive;
     font-size: 2em;
@@ -290,20 +297,15 @@ Scalability
         margin: 0 20%;
     }
 }
-@media (max-width: 850px) {
+@media (max-width: 550px) {
     nav {font-size: 2em;}
+    .thumbnail-title {font-size: 2em;}
+    .content-title {font-size: 2em;}
 }
 @media (orientation: portrait) {
     .nav-image {display: none;}
-    nav {font-size: 2em;}
     #about-content {
         flex-wrap: wrap;
-    }
-    .thumbnail-title {
-        font-size: 1em;
-    }
-    .content-title {
-        font-size: 1em;
     }
     .thumbnail {
         width: 100%;

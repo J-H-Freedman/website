@@ -172,39 +172,31 @@ iframe {
 Gallery
  */
 
-#slides-container {
-    
-    max-width: 100%;
-    max-height: 100%;
-    position: relative;
-    margin: 0 auto;
-    padding: 3%;
-    /* overflow: visible; */
-    flex-direction: column;
+#slide-container {
 
-}
-
-.slide {
-    display: none;
-    flex-direction: column;
-
-}
-
-#slides-navigation {
     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
     display: -ms-flexbox;      /* TWEENER - IE 10 */
     display: -webkit-flex;     /* NEW - Chrome */
     display: flex;
-    justify-content: center;
 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    margin: 0 auto;
+    padding: 3%;
+}
+
+.slide{
+    max-width: 45%;
+    align-self: flex start;
+    padding-bottom: 2.5em;
 }
 
 .gallery-image {
-    max-height: 95vh;
+    max-height: 90vh;
     object-fit: scale-down;
-    flex-direction: column;
-
 }
 
 /*
@@ -296,11 +288,15 @@ Scalability
     #content {
         margin: 0 20%;
     }
+
 }
-@media (max-width: 550px) {
+@media (max-width: 600px) {
     nav {font-size: 2em;}
     .thumbnail-title {font-size: 2em;}
     .content-title {font-size: 2em;}
+    .slide {
+        width: 100%;
+    }
 }
 @media (orientation: portrait) {
     .nav-image {display: none;}

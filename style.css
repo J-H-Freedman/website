@@ -190,7 +190,7 @@ Gallery
 
 .slide{
     max-width: 45%;
-    align-self: flex start;
+    align-self: flex-start;
     padding-bottom: 2.5em;
 }
 
@@ -284,18 +284,21 @@ footer a{
 /*
 Scalability
  */
-@media (min-width: 1200px) {
+
+/*@media (min-width: 1200px) {
     #content {
-        margin: 0 20%;
+        margin: 0% 15%;
     }
 
 }
+
+ */
 @media (max-width: 600px) {
     nav {font-size: 2em;}
     .thumbnail-title {font-size: 2em;}
     .content-title {font-size: 2em;}
     .slide {
-        width: 100%;
+        max-width: 100%;
     }
 }
 @media (orientation: portrait) {
@@ -305,5 +308,8 @@ Scalability
     }
     .thumbnail {
         width: 100%;
+    }
+    .slide {
+        max-width: 100%;
     }
 }

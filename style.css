@@ -68,6 +68,34 @@ About Style
     color: magenta;
     font-size: 1.25em;
 }
+/*
+Library Style
+ */
+
+.library-section {
+    padding: 2.5% 5%;
+
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.library-article {
+    font-family: 'Alegreya', serif;
+    width: 70%;
+    font-size: 1em;
+}
+
+.divider {
+    font-family: "Germania One", cursive;
+    text-align: center;
+    font-size: 3em;
+    color: cyan;
+}
 
 /*
 Updates Style
@@ -91,12 +119,6 @@ Updates Style
 .update-date {
     font-family: "Germania One", cursive;
     font-size: 2em;
-}
-.update-divider {
-    font-family: "Germania One", cursive;
-    text-align: center;
-    font-size: 3em;
-    color: cyan;
 }
 
 /*

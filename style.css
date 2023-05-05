@@ -86,7 +86,7 @@ Library Style
 
 .library-article {
     font-family: 'Alegreya', serif;
-    width: 70%;
+    width: 50%;
     font-size: 1em;
 }
 
@@ -322,6 +322,9 @@ Scalability
     .slide {
         max-width: 100%;
     }
+    .library-article {
+        width: 100%;
+    }
 }
 @media (orientation: portrait) {
     .nav-image {display: none;}
@@ -333,5 +336,8 @@ Scalability
     }
     .slide {
         max-width: 100%;
+    }
+    .library-article {
+        width: 70%;
     }
 }

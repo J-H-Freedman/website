@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
+<body>
+<main>
+    {% include navHeader.html %}
+    <div id="content">
+        <section id="about-content">
+            <img src="{{ page.prof_image }}" alt="Picture of J.H. Freedman" id="about-picture">
+            <article class="content-description">
+                {{ content_title }}
+                {{ content }}
+            </article>
+        </section>
+    </div>
+    <footer>
+        {% include footer.html %}
+    </footer>
+</main>
+</body>
+</html>

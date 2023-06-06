@@ -1,0 +1,252 @@
+//---
+/* SETUP VARIABLES
+//---
+
+@import "galleryStyle"
+
+/* common functions
+@mixin flexDefault($justify)
+  display: -webkit-box      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox      /* TWEENER - IE 10 */
+  display: -webkit-flex     /* NEW - Chrome */
+  display: flex
+  justify-content: $justify
+
+@mixin link-colors($main-color, $visited-color)
+  a
+    &:link
+      color: $main-color
+    &:hover
+      color: $main-color
+    &:active
+      color: $main-color
+    &:visited
+      color: $visited-color
+
+
+$content-padding: 1% 2.5%
+
+/* common fonts
+$title-font: "Germania One", cursive
+$content-font: "Alegreya", serif
+
+/* common sizes
+$content-font-size: 1rem
+$title-font-size: $content-font-size * 1.5
+
+
+/* common colors
+/* fonts
+$default-font-color: black
+$link-font-color: magenta
+$link-font-color-visited: darkmagenta
+$nav-font-color: white
+/*backgrounds
+$content-bg-color: white
+$bg-bg-color: black
+
+
+//---
+/* Universal Style
+//---
+
+body 
+  background-color: $bg-bg-color
+img 
+  max-width: 100%
+
+/* h1
+  font-weight: normal
+/* h2
+  font-weight: normal
+/* h3
+  font-weight: normal
+
+@include link-colors($link-font-color, $link-font-color-visited)
+
+
+/* Generic Content Style
+#content 
+  margin: $content-padding * 2
+  padding: $content-padding
+  background-color: $content-bg-color
+
+.content-description 
+  font-family: $content-font
+  font-size: $content-font-size
+  padding: $content-padding
+
+.content-title 
+  font-size: $title-font-size
+  font-family: $title-font
+
+
+ /* About Style
+#about-content 
+  @include flexDefault(space-evenly)
+
+#about-picture 
+  max-width: 50%
+
+#email 
+  font-family: $title-font
+  color: $link-font-color
+  font-size: 1.25rem
+
+/* Library Style
+.library-section 
+  padding: $content-padding * 2
+  @include flexDefault(center)
+  align-items: baseline
+
+
+.library-article 
+  font-family: $content-font
+  width: 50%
+  font-size: $content-font-size
+
+
+.divider 
+  font-family: $title-font
+  text-align: center
+  font-size: $title-font-size * 2
+  color: cyan
+
+
+/* Updates Style
+.update-section 
+  padding: 2.5% 5%
+
+  @include flexDefault(space-between)
+  align-items: baseline
+
+.update-article 
+  font-family: $content-font
+  width: 70%
+  font-size: 1em
+
+.update-date 
+  font-family: $title-font
+  font-size: 2em
+
+
+/* media thumbnails
+#thumbnail-container 
+  @include flexDefault(space-evenly)
+
+  flex-direction: row
+  flex-wrap: wrap
+  padding-bottom: 2em
+
+.section-title
+  font-size: 2.5em
+  font-family: $title-font
+  text-align: center
+  padding-top: .5em
+
+.thumbnail
+  width: 40%
+  align-self: flex-end
+
+
+.thumbnail-title 
+  color: $link-font-color
+  text-align: center
+  font-family: $title-font
+  font-size: $title-font-size
+
+
+.thumbnail-img 
+  width: 100%
+  border-style: solid
+  border-color: $bg-bg-color
+
+
+/* Video
+.video-container 
+  width: 100%
+  @include flexDefault(center)
+
+
+iframe 
+  width: 640px
+  height: 360px
+  border: none
+
+
+.content-title 
+  text-align: center
+
+
+.content-description 
+  padding: 0 10% 1% 10%
+
+
+/* Generic Nav Style
+nav
+  font-family: $title-font
+  font-size: 3em
+  @include flexDefault(space-evenly)
+  align-items: center
+  @include link-colors($nav-font-color, $nav-font-color)
+
+.nav-image
+  max-height: 3em
+
+/* Splash Page Style
+#splash 
+  background-color: $bg-bg-color
+  height: 100%
+
+#splash-image 
+  margin: auto
+  display: block
+  height: 80vh
+  max-width: 80%
+
+#bottom-nav 
+  position: fixed
+  width: 100%
+  bottom: 10%
+  @include link-colors($nav-font-color, $nav-font-color)
+
+/* Footer
+footer 
+  @include flexDefault(center)
+  a
+    padding: 1em
+
+
+/* Scalability  */
+
+/* @media (min-width: 1200px)
+    #content 
+        margin: 0% 15%
+    */
+
+@media (max-width: 600px)
+  nav
+    font-size: 2em
+  .thumbnail-title
+    font-size: 2em
+  .content-title
+      font-size: 2em
+  .slide 
+    max-width: 100%
+  
+  .library-article 
+    width: 100%
+  
+
+@media (orientation: portrait) 
+  .nav-image
+    display: none
+  #about-content 
+    flex-wrap: wrap
+  .thumbnail
+    width: 100%
+  .slide 
+    max-width: 100%
+  .library-article 
+    width: 70%

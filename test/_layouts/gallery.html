@@ -1,0 +1,34 @@
+
+---
+---
+<!DOCTYPE html>
+<head>
+
+    {{% include head.html %}}
+
+</head>
+<body>
+<main>
+
+    {{% include navHeader.html %}}
+
+    <div id="content">
+
+        {{% for part in site.data.galleries %}}
+            {{% for collection in part %}}
+                <a class="thumbnail" href="{{ collection }}">
+                    <h1 class="thumbnail-title">{{ title }}</h1>
+                    <img alt="pages thumbnail" src="{{ coverImage }}" class="thumbnail-img">
+                </a>
+            {{% endfor %}}
+            <div class="divider">#</div>
+        {{% endfor %}}
+
+    </div>
+
+    <footer>
+        {{% include footer.html %}}
+    </footer>
+</main>
+</body>
+</html>

@@ -1,5 +1,6 @@
 illustrations:
   - name: pages
+    -path:
   - name: portraits
   - name: misc
 

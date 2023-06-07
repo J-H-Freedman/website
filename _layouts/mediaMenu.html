@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+    <title>
+        ~{{ page.title }}~
+    </title>
+</head>
+<body>
+<main>
+    {% include navHeader.html %}
+
+    <div id="content">
+        <div class="section-title">Animation</div>
+
+
+
+        <div id="thumbnail-container">
+            <a class="thumbnail" href="another-mans-treasure.html">
+                <h1 class="thumbnail-title">Another Man's Treasure</h1>
+                <img alt="Another Man's Treasure thumbnail" src="../images/thumbnails/AMT-thumbnail.jpg" class="thumbnail-img">
+            </a>
+
+            <a class="thumbnail" href="another-mans-pencil-test.html">
+                <h1 class="thumbnail-title">Another Man's Pencil Test</h1>
+                <img alt="Another Man's Pencil Test thumbnail" src="../images/thumbnails/AMPT-thumbnail.jpg" class="thumbnail-img">
+            </a>
+
+            <a class="thumbnail" href="sanctuary-for-independent-media-intro.html">
+                <h1 class="thumbnail-title">Media Sanctuary Animated Intro</h1>
+                <img alt="Sanctuary for Independent Media thumbnail" src="../images/thumbnails/sanctuary-thumbnail.jpg" class="thumbnail-img">
+            </a>
+
+            <!-- <a class="thumbnail" href="hamball.html">
+                <h1 class="thumbnail-title">Hamball</h1>
+                <img alt="Hamball thumbnail" src="../images/thumbnails/hamball-thumbnail.jpg" class="thumbnail-img">
+            </a> -->
+
+            <a class="thumbnail" href="micro-animation.html">
+                <h1 class="thumbnail-title">Micro Animations</h1>
+                <img alt="Micro Animation thumbnail" src="../images/thumbnails/BlackBoxer-thumbnail.jpg" class="thumbnail-img">
+            </a>
+
+            <!-- template
+            <a class="thumbnail" href="">
+                <h1 class="thumbnail-title">Title</h1>
+                <img src="../images/thumbnails/placeholder.jpg class="thumbnail-img">
+            </a>
+            -->
+
+        </div>
+    </div>
+
+    <footer>
+        {{% include footer.html %}}
+    </footer>
+</main>
+</body>
+</html>

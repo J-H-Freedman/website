@@ -1,0 +1,54 @@
+@import "baseStyle";
+
+// Media thumbnails
+#thumbnail-container {
+  @include flexDefault(space-evenly, center);
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 2em;
+}
+
+.section-title {
+  font-size: $largeTitle-font-size;
+  font-family: $title-font;
+  text-align: center;
+  padding-top: .5em;
+}
+
+.thumbnail {
+  width: 40%;
+  align-self: flex-end;
+}
+
+.thumbnail-title {
+  color: $link-font-color;
+  text-align: center;
+  font-family: $title-font;
+  font-size: $title-font-size;
+}
+
+.thumbnail-img {
+  width: 100%;
+  border-style: solid;
+  border-color: $bg-bg-color;
+}
+
+// Video
+.video-container {
+  width: 100%;
+  @include flexDefault(center, center);
+}
+
+iframe {
+  width: 640px;
+  height: 360px;
+  border: none;
+}
+
+.content-title {
+  text-align: center;
+}
+
+.content-description {
+  padding: 0 10% 1% 10%;
+}

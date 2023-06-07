@@ -1,0 +1,142 @@
+// SETUP VARIABLES
+
+@import "galleryStyle";
+@import "aboutStyle";
+@import "updatesStyle";
+@import "libraryStyle";
+@import "splashStyle";
+@import "mediaStyle";
+
+// common functions
+@mixin flexDefault($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin link-colors($main-color, $visited-color) {
+  a {
+    &:link,
+    &:hover,
+    &:active {
+      color: $main-color;
+    }
+    &:visited {
+      color: $visited-color;
+    }
+  }
+}
+
+$content-padding: 1% 2.5%;
+
+// common fonts
+$title-font: "Germania One", cursive;
+$content-font: "Alegreya", serif;
+
+// common sizes
+$content-font-size: 1rem;
+$title-font-size: $content-font-size * 2;
+$largeTitle-font-size: $title-font-size * 1.5;
+
+// common colors
+// fonts
+$default-font-color: black;
+$link-font-color: magenta;
+$link-font-color-visited: darkmagenta;
+$nav-font-color: white;
+//backgrounds
+$content-bg-color: white;
+$bg-bg-color: black;
+
+// Universal Style
+body {
+  background-color: $bg-bg-color;
+}
+
+img {
+  max-width: 100%;
+}
+
+@include link-colors($link-font-color, $link-font-color-visited);
+
+// Generic Content Style
+#content {
+  margin: $content-padding * 2;
+  padding: $content-padding;
+  background-color: $content-bg-color;
+}
+
+.content-description {
+  font-family: $content-font;
+  font-size: $content-font-size;
+  padding: $content-padding;
+}
+
+.content-title {
+  font-size: $title-font-size;
+  font-family: $title-font;
+}
+
+// Generic Nav Style
+nav {
+  font-family: $title-font;
+  font-size: $largeTitle-font-size;
+  @include flexDefault(space-evenly, center);
+  align-items: center;
+  @include link-colors($nav-font-color, $nav-font-color);
+}
+
+.nav-image {
+  max-height: $largeTitle-font-size;
+}
+
+// Footer
+footer {
+  @include flexDefault(center, center);
+  a {
+    padding: 1em;
+  }
+}
+
+// Scalability
+/* @media (min-width: 1200px) {
+  #content {
+    margin: 0% 15%;
+  }
+} */
+
+@media (max-width: 600px) {
+  nav {
+    font-size: $largeTitle-font-size;
+  }
+  .thumbnail-title {
+    font-size: $largeTitle-font-size;
+  }
+  .content-title {
+    font-size: $largeTitle-font-size;
+  }
+  .slide {
+    max-width: 100%;
+  }
+  .library-article {
+    width: 100%;
+  }
+}
+
+@media (orientation: portrait) {
+  .nav-image {
+    display: none;
+  }
+  #about-content {
+    flex-wrap: wrap;
+  }
+  .thumbnail {
+    width: 100%;
+  }
+  .slide {
+    max-width: 100%;
+  }
+  .library-article {
+    width: 70%;
+  }
+}

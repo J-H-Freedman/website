@@ -1,0 +1,20 @@
+@import "baseStyle";
+
+#slide-container {
+  @include flexDefault(space-evenly);
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 3%;
+
+  .slide {
+    max-width: 45%;
+    align-self: flex-start;
+    padding-bottom: 2.5em;
+  }
+
+  .gallery-image {
+    max-height: 90vh;
+    object-fit: scale-down;
+  }
+}

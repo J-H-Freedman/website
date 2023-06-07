@@ -1,0 +1,16 @@
+@import "baseStyle";
+
+// About Style
+#about-content {
+  @include flexDefault(space-evenly, center);
+}
+
+#about-picture {
+  max-width: 50%;
+}
+
+#email {
+  font-family: $title-font;
+  color: $link-font-color;
+  font-size: $largeTitle-font-size;
+}

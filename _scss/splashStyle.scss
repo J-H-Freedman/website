@@ -1,0 +1,21 @@
+@import "baseStyle";
+
+// Splash Page Style
+#splash {
+  background-color: $bg-bg-color;
+  height: 100%;
+}
+
+#splash-image {
+  margin: auto;
+  display: block;
+  height: 80vh;
+  max-width: 80%;
+}
+
+#bottom-nav {
+  position: fixed;
+  width: 100%;
+  bottom: 10%;
+  @include link-colors($nav-font-color, $nav-font-color);
+}

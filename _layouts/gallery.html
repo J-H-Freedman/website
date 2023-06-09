@@ -12,20 +12,20 @@
 
         <div id="content">
 
-            {{% for part in site.data.galleries %}}
-                {{% for collection in part %}}
+            {% for part in site.data.galleries %}
+                {% for collection in part %}
                     <a class="thumbnail" href="{{ collection }}">
                         <h1 class="thumbnail-title">{{ title }}</h1>
                         <img alt="pages thumbnail" src="{{ coverImage }}" class="thumbnail-img">
                     </a>
-                {{% endfor %}}
+                {% endfor %}
                 <div class="divider">#</div>
-            {{% endfor %}}
+            {% endfor %}
 
         </div>
 
         <footer>
-            {{% include footer.html %}}
+            {% include footer.html %}
         </footer>
     </main>
 </body>

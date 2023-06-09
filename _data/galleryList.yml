@@ -1,20 +1,47 @@
 illustrations:
   - name: pages
-    -path:
+    path: /gallery/pages.html
+    thumbnail: /images/thumbnails/pages-thumbnail.jpg
   - name: portraits
+    path: /gallery/portraits.html
+    thumbnail: /images/thumbnails/portraits-thumbnail.jpg
   - name: misc
+    path: /gallery/misc.html
+    thumbnail: /images/thumbnails/misc-thumbnail.jpg
 
 comics:
   - name: Bull & Winkle @ Law
+    path: /gallery/
+    thumbnail: /images/thumbnails/
 
 AiGenerated:
   - name: Still Human
+    path: /gallery/AiArt/
+    thumbnail: /images/thumbnails/
   - name: Tower of Flesh and Bone
+    path: /gallery/AiArt/
+    thumbnail: /images/thumbnails/
   - name: Jungle of Veins and Blood
+    path: /gallery/AiArt/
+    thumbnail: /images/thumbnails/
   - name: The Hive
+    path: /gallery/AiArt/
+    thumbnail: /images/thumbnails/
   - name: Void Spiral
+    path: /gallery/AiArt/
+    thumbnail: /images/thumbnails/
   - name: But A Dream
+    path: /gallery/AiArt/
+    thumbnail: /images/thumbnails/
   - name: שרפים
+    path: /gallery/AiArt/
+    thumbnail: /images/thumbnails/
   - name: Gorepunks
+    path: /gallery/AiArt/
+    thumbnail: /images/thumbnails/
   - name: Pop Art
+    path: /gallery/AiArt/
+    thumbnail: /images/thumbnails/
   - name: untitled
+    path: /gallery/AiArt/
+    thumbnail: /images/thumbnails/

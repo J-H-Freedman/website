@@ -1,47 +1,50 @@
-illustrations:
-  - name: pages
-    path: /gallery/pages.html
-    thumbnail: /images/thumbnails/pages-thumbnail.jpg
-  - name: portraits
-    path: /gallery/portraits.html
-    thumbnail: /images/thumbnails/portraits-thumbnail.jpg
-  - name: misc
-    path: /gallery/misc.html
-    thumbnail: /images/thumbnails/misc-thumbnail.jpg
+- category: illustrations
+  collections:
+    - name: pages
+      path: /gallery/pages.html
+      thumbnail: /images/thumbnails/pages-thumbnail.jpg
+    - name: portraits
+      path: ../gallery/portraits.html
+      thumbnail: ../images/thumbnails/portraits-thumbnail.jpg
+    - name: misc
+      path: ../gallery/misc.html
+      thumbnail: ../images/thumbnails/misc-thumbnail.jpg
 
-comics:
-  - name: Bull & Winkle @ Law
-    path: /gallery/
-    thumbnail: /images/thumbnails/
+- category: comics
+  collections:
+    - name: Bull & Winkle @ Law
+      path: ../gallery/B&W@L.html
+      thumbnail: ../images/thumbnails/BaW-thumbnail.jpg
 
-AiGenerated:
-  - name: Still Human
-    path: /gallery/AiArt/
-    thumbnail: /images/thumbnails/
-  - name: Tower of Flesh and Bone
-    path: /gallery/AiArt/
-    thumbnail: /images/thumbnails/
-  - name: Jungle of Veins and Blood
-    path: /gallery/AiArt/
-    thumbnail: /images/thumbnails/
-  - name: The Hive
-    path: /gallery/AiArt/
-    thumbnail: /images/thumbnails/
-  - name: Void Spiral
-    path: /gallery/AiArt/
-    thumbnail: /images/thumbnails/
-  - name: But A Dream
-    path: /gallery/AiArt/
-    thumbnail: /images/thumbnails/
-  - name: שרפים
-    path: /gallery/AiArt/
-    thumbnail: /images/thumbnails/
-  - name: Gorepunks
-    path: /gallery/AiArt/
-    thumbnail: /images/thumbnails/
-  - name: Pop Art
-    path: /gallery/AiArt/
-    thumbnail: /images/thumbnails/
-  - name: untitled
-    path: /gallery/AiArt/
-    thumbnail: /images/thumbnails/
+- category: AiGenerated
+  collections:
+    - name: Still Human
+      path: ../gallery/AiArt/StillHuman.html
+      thumbnail: ../images/AiArt/gorepunks/StillHuman/StillHuman000.png
+    - name: Tower of Flesh and Bone
+      path: ../gallery/AiGeneratedArt/TowerOfFleshAndBone.html
+      thumbnail: ../images/AiArt/tower/TowerOfFleshAndBone001.png
+    - name: Jungle of Veins and Blood
+      path: gallery/AiGeneratedArt/JungleOfVeinsAndBlood.html
+      thumbnail:
+    - name: The Hive
+      path: ../gallery/AiGeneratedArt/TheHive.html
+      thumbnail:
+    - name: Void Spiral
+      path: ../gallery/AiGeneratedArt/voidspiral.html
+      thumbnail:
+    - name: But A Dream
+      path: ../gallery/AiGeneratedArt/ButADream.html
+      thumbnail:
+    - name: שרפים
+      path: ../gallery/AiGeneratedArt/שרפים.html
+      thumbnail:
+    - name: Gorepunks
+      path: ../gallery/AiGeneratedArt/gorepunks.html
+      thumbnail:
+    - name: Pop Art
+      path: ../gallery/AiGeneratedArt/PopArt.html
+      thumbnail:
+    - name: untitled
+      path: ../gallery/AiGeneratedArt/untitled.html
+      thumbnail:

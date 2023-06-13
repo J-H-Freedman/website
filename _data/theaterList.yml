@@ -1,4 +1,10 @@
 animation:
     - name: Another Man's Treasure
+      path: ../theater/
+      thumbnail: ../images/thumbnails/
     - name: Sanctuary for Independent Media intro
+      path: ../theater/
+      thumbnail: ../images/thumbnails/
     - name: misc micro-animations
+      path: ../theater/
+      thumbnail: ../images/thumbnails/

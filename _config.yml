@@ -6,8 +6,8 @@ plugins_dir         : _plugins # takes an array of strings and loads plugins in 
 layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
-sass:
-  sass_dir: _sass
+scss:
+  scss_dir: _scss
 collections:
   posts:
     output          : true
@@ -35,37 +35,27 @@ plugins             : []
 markdown            : kramdown
 highlighter         : rouge
 lsi                 : false
-excerpt_separator   : "\n\n"
-incremental         : false
+excerpt_separator   : "/n/n"
+incremental         : true
 
 # Serving
 detach              : false
 port                : 4000
 host                : 127.0.0.1
-baseurl             : "https://jhfreedman.com/"
-show_dir_listing    : false
+url                 : "https://jhfreedman.com" # the base hostname & protocol for your site
+baseurl             : "" # the subpath of your site, e.g. /blog
+
 
 # Outputting
-permalink           : date
-paginate_path       : /page:num
-timezone            : null
+timezone            : America/New_York
 
-quiet               : false
 verbose             : false
-defaults            : []
 
 liquid:
   error_mode        : warn
   strict_filters    : false
   strict_variables  : false
 
-# Markdown Processors
-kramdown:
-  auto_ids          : true
-  entity_output     : as_char
-  toc_levels        : [1, 2, 3, 4, 5, 6]
-  smart_quotes      : lsquo,rsquo,ldquo,rdquo
-  input             : GFM
-  hard_wrap         : false
-  footnote_nr       : 1
-  show_warnings     : false
+
+
+  cache_dir: /home/jhfreedman/.jekyll-cache

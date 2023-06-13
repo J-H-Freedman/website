@@ -16,7 +16,8 @@
 }
 
 .thumbnail {
-  width: 40%;
+  // width: 40%;
+  flex: 1 0 40%
   align-self: flex-end;
 }
 

@@ -1,6 +1,5 @@
 ---
 layout: mediaMenu
 title: Gallery
-media_data:
-  - include: galleryList.yml
+media_data: site.data.galleryList
 ---

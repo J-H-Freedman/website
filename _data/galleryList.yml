@@ -16,7 +16,7 @@
       path: ../gallery/B&W@L.html
       thumbnail: ../images/thumbnails/BaW-thumbnail.jpg
 
-- category: AiGenerated
+- category: Ai Curated
   collections:
     - name: Still Human
       path: ../gallery/AiArt/StillHuman.html

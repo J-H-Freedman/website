@@ -15,7 +15,7 @@
     <div id="content">
 <!--            contain thumbnails-->
 
-        {% for category in page.media_data %}
+        {% for category in site.data.galleryList %}
             <h1 class="section-title" >{{ category.category }}</h1>
             <div id="thumbnail-container">
     <!--                base thumbnail-->
@@ -27,12 +27,10 @@
                 {% endfor %}
             </div>
     <!--                use divider to separate categories-->
-            {% unless forLoop.last %}
+            {% unless forloop.last %}
                 <div class="divider">#</div>
             {% endunless %}
         {% endfor %}
-    </div>
-
     </div>
 
     <footer>

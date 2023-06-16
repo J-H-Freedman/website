@@ -15,7 +15,7 @@
     <div id="content">
 <!--            contain thumbnails-->
 
-        {% for category in site.data.galleryList %}
+        {% for category in site.data[page.media_data] %}
             <h1 class="section-title" >{{ category.category }}</h1>
             <div id="thumbnail-container">
     <!--                base thumbnail-->

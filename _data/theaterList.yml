@@ -1,10 +1,11 @@
-animation:
+- category: animation
+  collections:
     - name: Another Man's Treasure
-      path: ../theater/
-      thumbnail: ../images/thumbnails/
+      path: theater/another-mans-treasure.html
+      thumbnail: /images/thumbnails/AMT-thumbnail.jpg
     - name: Sanctuary for Independent Media intro
-      path: ../theater/
-      thumbnail: ../images/thumbnails/
+      path: theater/sanctuary-for-independent-media-intro.html
+      thumbnail: /images/thumbnails/sanctuary-thumbnail.jpg  # fixed
     - name: misc micro-animations
-      path: ../theater/
-      thumbnail: ../images/thumbnails/
+      path: theater/micro-animation.html
+      thumbnail: /images/thumbnails/AMPT-thumbnail.jpg  # fixed

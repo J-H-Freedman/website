@@ -1,0 +1,15 @@
+- category: Structured Writing
+  collections:
+    - name: On Ai Art
+      subtitle: My favorite artist doesn't exist
+      path: library/onAiArt.md
+
+#- category: Creative Writing
+#- category: Zines
+
+- category: Updates
+  collections:
+    - name: All
+      path: library/updates.md
+    - name: 2023
+      path: library/2023.md

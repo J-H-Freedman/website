@@ -12,19 +12,19 @@
     <div id="content">
 
         {% for post in site.posts %}
-        <section class="update-section">
-            <div class="update-date">
-                {{ post.date | date: "%-d" }} {{ post.date | date: "%b" }} <br>
-                {{ post.date | date: "%Y" }}
-            </div>
-            <article class="update-article">
-                {{ post.content }}
-            </article>
-        </section>
+            <section class="update-section">
+                <div class="update-date">
+                    {{ post.date | date: "%-d" }} {{ post.date | date: "%b" }} <br>
+                    {{ post.date | date: "%Y" }}
+                </div>
+                <article class="update-article">
+                    {{ post.content }}
+                </article>
+            </section>
 
-        {% unless forloop.last %}
-        <div class="divider">#</div>
-        {% endunless %}
+            {% unless forloop.last %}
+                <div class="divider">#</div>
+            {% endunless %}
         {% endfor %}
 
     </div>

@@ -22,6 +22,9 @@
                 {% for collection in category.collections %}
                     <a class="thumbnail" href="{{ collection.path }}">
                         <h1 class="thumbnail-title">{{ collection.name }}</h1>
+                        {% if collection.subtitle %}
+                            <br> {{ collection.subtitle }}
+                        {% endif %}
                         <img alt="pages thumbnail" src="{{ collection.thumbnail }}" class="thumbnail-img">
                     </a>
                 {% endfor %}

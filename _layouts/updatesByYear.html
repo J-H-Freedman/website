@@ -13,9 +13,8 @@
 
         {% for post in site.posts %}
 
-
             {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-            {% if year == {{ updateYear }} %}
+            {% if year == page.updateYear %}
                 <section class="update-section">
                     <div class="update-date">
                         {{ post.date | date: "%-d" }} {{ post.date | date: "%b" }} <br>
@@ -25,13 +24,10 @@
                         {{ post.content }}
                     </article>
                 </section>
-
                 {% unless forloop.last %}
                     <div class="divider">#</div>
                 {% endunless %}
-
             {% endif %}
-
         {% endfor %}
 
     </div>

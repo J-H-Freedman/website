@@ -20,14 +20,21 @@
             <div id="thumbnail-container">
     <!--                base thumbnail-->
                 {% for collection in category.collections %}
-                    <a class="thumbnail" href="{{ collection.path }}">
-                        <h1 class="thumbnail-title">{{ collection.name }}</h1>
+                <a class="thumbnail" href="{{ collection.path }}">
+                    <h1 class="thumbnail-title">{{ collection.name }}
                         {% if collection.subtitle %}
-                            <br> {{ collection.subtitle }}
+    <!--                    <div class="thumbnail-title thumbnail-title&#45;&#45;subtitle">-->
+                            : <br> {{ collection.subtitle }}
+    <!--                    </div>-->
                         {% endif %}
-                        <img alt="pages thumbnail" src="{{ collection.thumbnail }}" class="thumbnail-img">
-                    </a>
+                    </h1>
+                    {% if collection.thumbnail %}
+                    <img alt="pages thumbnail" src="{{ collection.thumbnail }}" class="thumbnail-img">
+                    {% endif %}
+                    </h1>
+                </a>
                 {% endfor %}
+
             </div>
     <!--                use divider to separate categories-->
             {% unless forloop.last %}

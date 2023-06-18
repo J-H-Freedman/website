@@ -7,9 +7,12 @@
 }
 
 .library-article {
+  //@include flexDefault(center, center);
   font-family: $content-font;
   width: 50%;
   font-size: $content-font-size;
+  //align-items: center;
+  //padding: 0 25%;
 }
 
 .divider {

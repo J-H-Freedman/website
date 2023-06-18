@@ -11,17 +11,20 @@
     {% include navHeader.html %}
 
     <div id="content">
-
-        {{ content_title }}
-        {{ content_description }}
-        <div class="divider">...</div>
-
-        {{ content }}
-
+        <div class="library-article">
+            <div class="content-title">
+                {{ page.content_title }}
+            </div>
+            <div class="content-description">
+                {{ page.content_description }}
+            </div>
+            <div class="divider">...</div>
+            {{ content }}
+        </div>
     </div>
 
     <footer>
-        {{% include footer.html %}}
+        {% include footer.html %}
     </footer>
 </main>
 </body>

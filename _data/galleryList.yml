@@ -10,41 +10,41 @@
       path: ../gallery/misc.html
       thumbnail: ../images/thumbnails/misc-thumbnail.jpg
 
-- category: comics
-  collections:
-    - name: Bull & Winkle @ Law
-      path: ../gallery/B&W@L.html
-      thumbnail: ../images/thumbnails/BaW-thumbnail.jpg
-
-- category: Ai Curated
-  collections:
-    - name: Still Human
-      path: ../gallery/AiArt/StillHuman.html
-      thumbnail: ../images/AiArt/gorepunks/StillHuman/StillHuman000.png
-    - name: Tower of Flesh and Bone
-      path: ../gallery/AiGeneratedArt/TowerOfFleshAndBone.html
-      thumbnail: ../images/AiArt/tower/TowerOfFleshAndBone001.png
-    - name: Jungle of Veins and Blood
-      path: gallery/AiGeneratedArt/JungleOfVeinsAndBlood.html
-      thumbnail:
-    - name: The Hive
-      path: ../gallery/AiGeneratedArt/TheHive.html
-      thumbnail:
-    - name: Void Spiral
-      path: ../gallery/AiGeneratedArt/voidspiral.html
-      thumbnail:
-    - name: But A Dream
-      path: ../gallery/AiGeneratedArt/ButADream.html
-      thumbnail:
-    - name: שרפים
-      path: ../gallery/AiGeneratedArt/שרפים.html
-      thumbnail:
-    - name: Gorepunks
-      path: ../gallery/AiGeneratedArt/gorepunks.html
-      thumbnail:
-    - name: Pop Art
-      path: ../gallery/AiGeneratedArt/PopArt.html
-      thumbnail:
-    - name: untitled
-      path: ../gallery/AiGeneratedArt/untitled.html
-      thumbnail:
+#- category: comics
+#  collections:
+#    - name: Bull & Winkle @ Law
+#      path: ../gallery/B&W@L.html
+#      thumbnail: ../images/thumbnails/BaW-thumbnail.jpg
+#
+#- category: Ai Curated
+#  collections:
+#    - name: Still Human
+#      path: ../gallery/AiArt/StillHuman.html
+#      thumbnail: ../images/AiArt/gorepunks/StillHuman/StillHuman000.png
+#    - name: Tower of Flesh and Bone
+#      path: ../gallery/AiGeneratedArt/TowerOfFleshAndBone.html
+#      thumbnail: ../images/AiArt/tower/TowerOfFleshAndBone001.png
+#    - name: Jungle of Veins and Blood
+#      path: gallery/AiGeneratedArt/JungleOfVeinsAndBlood.html
+#      thumbnail:
+#    - name: The Hive
+#      path: ../gallery/AiGeneratedArt/TheHive.html
+#      thumbnail:
+#    - name: Void Spiral
+#      path: ../gallery/AiGeneratedArt/voidspiral.html
+#      thumbnail:
+#    - name: But A Dream
+#      path: ../gallery/AiGeneratedArt/ButADream.html
+#      thumbnail:
+#    - name: שרפים
+#      path: ../gallery/AiGeneratedArt/שרפים.html
+#      thumbnail:
+#    - name: Gorepunks
+#      path: ../gallery/AiGeneratedArt/gorepunks.html
+#      thumbnail:
+#    - name: Pop Art
+#      path: ../gallery/AiGeneratedArt/PopArt.html
+#      thumbnail:
+#    - name: untitled
+#      path: ../gallery/AiGeneratedArt/untitled.html
+#      thumbnail:

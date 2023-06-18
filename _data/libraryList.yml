@@ -2,14 +2,15 @@
   collections:
     - name: On Ai Art
       subtitle: My favorite artist doesn't exist
-      path: library/onAiArt.md
+      path: library/onAiArt.html
 
 #- category: Creative Writing
+   
 #- category: Zines
 
 - category: Updates
   collections:
     - name: All
-      path: library/updates.md
+      path: library/updates.html
     - name: 2023
-      path: library/2023.md
+      path: library/2023.html

@@ -1,13 +1,13 @@
 # Where things are
 source              : .
 destination         : ./_site
-collections_dir     : .
+#collections_dir     : .
 plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
 layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
-scss:
-  scss_dir          : _scss
+sass:
+  sass_dir          : _scss
 collections:
   posts:
     output          : true

@@ -7,13 +7,16 @@
 }
 
 .library-article {
-  //@include flexDefault(center, center);
+  //@include flexDefault(center, center); // Uncomment this
   font-family: $content-font;
-  width: 50%;
+  padding: 0 25%;
   font-size: $content-font-size;
-  //align-items: center;
-  //padding: 0 25%;
+  //text-align: center;
+  //align-items: center; // Uncomment this
+  //padding: 0 25%; // Uncomment this to center the div itself
+  //flex-direction: column; // Add this to align your content vertically
 }
+
 
 .divider {
   font-family: $title-font;

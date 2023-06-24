@@ -1,2 +1,3 @@
+# ignore _site builds and .jekyll cache
 ./_site/*
-.jekyll-*
+.jekyll*

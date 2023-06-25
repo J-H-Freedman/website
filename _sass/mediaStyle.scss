@@ -18,7 +18,7 @@
 
 .thumbnail {
   // width: 40%;
-  flex: 1 0 40%;
+  flex: 0 1 34%;
   align-self: flex-end;
 }
 
@@ -57,4 +57,10 @@ iframe {
 
 .content-description {
   padding: 0 10% 1% 10%;
+}
+
+@media (max-width: 800px) {
+  .thumbnail {
+    flex: 0 0 60%;
+  }
 }

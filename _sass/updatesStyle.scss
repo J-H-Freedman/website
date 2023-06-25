@@ -9,8 +9,9 @@
 
 .update-article {
   font-family: $content-font;
-  width: 70%;
+  max-width: 70%;
   font-size: $content-font-size;
+  padding: 0 20%;
 }
 
 .update-date {

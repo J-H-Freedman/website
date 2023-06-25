@@ -10,15 +10,10 @@
 .library-article {
   //@include flexDefault(center, center); // Uncomment this
   font-family: $content-font;
-  padding: 0 25%;
+  padding: $content-padding-vertical 25%;
   font-size: $content-font-size;
-  //width: 75%; // change this value to what you want
+  max-width: 50%;
   align-items: center; // Uncomment this
-  //padding: 0 25%; // Uncomment this to center the div itself
-  //flex-direction: column; // Add this to align your content vertically
-  //max-width: 75ch;
-
-  //text-overflow: '-';
 }
 
 

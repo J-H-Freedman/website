@@ -21,11 +21,12 @@
                     </div>
                     <article class="update-article">
                         {{ post.content }}
+                        {% unless forloop.last %}
+                            <div class="divider">#</div>
+                        {% endunless %}
                     </article>
                 </section>
-                {% unless forloop.last %}
-                    <div class="divider">#</div>
-                {% endunless %}
+
             {% endif %}
         {% endfor %}
 

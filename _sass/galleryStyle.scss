@@ -3,7 +3,7 @@
 @import "baseStyle";
 
 #slide-container {
-  @include flexDefault(space-evenly, center);
+  @include flexDefault(space-evenly, default);
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;

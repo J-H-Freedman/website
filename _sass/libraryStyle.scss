@@ -1,8 +1,9 @@
 @import "baseStyle";
 
+
 // Library Style
 .library-section {
-  padding: $content-padding * 2;
+  padding: ($content-padding-horizontal * 2) ($content-padding-vertical * 2);
   @include flexDefault(center, baseline);
 }
 
@@ -11,10 +12,13 @@
   font-family: $content-font;
   padding: 0 25%;
   font-size: $content-font-size;
-  //text-align: center;
-  //align-items: center; // Uncomment this
+  //width: 75%; // change this value to what you want
+  align-items: center; // Uncomment this
   //padding: 0 25%; // Uncomment this to center the div itself
   //flex-direction: column; // Add this to align your content vertically
+  //max-width: 75ch;
+
+  //text-overflow: '-';
 }
 
 

@@ -7,7 +7,8 @@ layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
 sass:
-  sass_dir          : _scss
+  sass_dir          : _sass
+  style             : compressed
 collections:
   posts:
     output          : true
@@ -29,7 +30,8 @@ unpublished         : false
 
 # Plugins
 whitelist           : []
-plugins             : []
+plugins:
+  - jekyll-sass-converter
 
 # Conversion
 markdown            : kramdown

@@ -1,11 +1,13 @@
+@charset "UTF-8";
+
 // SETUP VARIABLES
 
-@import "galleryStyle";
-@import "aboutStyle";
-@import "updatesStyle";
-@import "libraryStyle";
-@import "splashStyle";
-@import "mediaStyle";
+//@import "galleryStyle";
+//@import "aboutStyle";
+//@import "updatesStyle";
+//@import "libraryStyle";
+//@import "splashStyle";
+//@import "mediaStyle";
 
 // common functions
 @mixin flexDefault($justify, $align) {
@@ -27,7 +29,9 @@
   }
 }
 
-$content-padding: 1% 2.5%;
+$content-padding-vertical: 1%;
+$content-padding-horizontal: 2.5%;
+$content-padding: $content-padding-vertical $content-padding-horizontal;
 
 // common fonts
 $title-font: "Germania One", cursive;
@@ -61,9 +65,10 @@ img {
 
 // Generic Content Style
 #content {
-  margin: $content-padding * 2 ;
+  margin: ($content-padding-vertical * 2 ) ($content-padding-horizontal * 2);
   padding: $content-padding;
   background-color: $content-bg-color;
+
 }
 
 .content-description {
@@ -105,21 +110,27 @@ footer {
   }
 } */
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
+  .library-article {
+    padding: 5% 15%;
+  }
+}
+
+@media (max-width: 800px) {
   nav {
-    font-size: $largeTitle-font-size;
+    font-size: $title-font-size;
   }
   .thumbnail-title {
-    font-size: $largeTitle-font-size;
+    font-size: $title-font-size;
   }
   .content-title {
-    font-size: $largeTitle-font-size;
+    font-size: $title-font-size;
   }
   .slide {
     max-width: 100%;
   }
   .library-article {
-    width: 100%;
+    padding: 5%;
   }
 }
 
@@ -137,6 +148,6 @@ footer {
     max-width: 100%;
   }
   .library-article {
-    width: 70%;
+    //width: 70%;
   }
 }

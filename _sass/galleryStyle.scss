@@ -1,7 +1,9 @@
+@charset "UTF-8";
+
 @import "baseStyle";
 
 #slide-container {
-  @include flexDefault(space-evenly);
+  @include flexDefault(space-evenly, center);
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;

@@ -2,7 +2,10 @@
   collections:
     - name: On Ai Art
       subtitle: My favorite artist doesn't exist
-      path: onAiArt.html
+      path: /2023/05/02/On-Ai-Art.html
+    - name: Yet Another Overhaul
+      subtitle: Content Is King
+      path: /2023/06/25/Yet-Another-Overhaul.html
 
 #- category: Creative Writing
 
@@ -12,5 +15,7 @@
   collections:
     - name: All
       path: updates.html
+    - name: 2020
+      path: 2020.html
     - name: 2023
       path: 2023.html

@@ -2,14 +2,14 @@
 
 @import "baseStyle";
 
-#slide-container {
+#media-container {
   @include flexDefault(space-evenly, default);
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 3%;
 
-  .slide {
+  .video {
     max-width: 45%;
     align-self: flex-start;
     padding-bottom: 2.5em;

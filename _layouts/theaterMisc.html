@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+  <title>
+    ~{{ page.title }}~
+  </title>
+</head>
+<body>
+<main>
+  {% include navHeader.html %}
+
+  <div id="content">
+
+    {% for category in site.data[page.media_data] %}
+    {% for collection in category.collections %}
+      <div class="video">
+        <div class="content-title">{{ collection.content_title }}</div>
+        <div class="content-description">
+          {{ collection.description }}
+        </div>
+
+<!--        <div class="divider">...</div>-->
+
+        <div class="video-container">
+          <iframe src="{{ collection.video_link }}" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      {% unless forloop.last %}
+    <br>
+        <div class="divider">#</div>
+      {% endunless %}
+
+    {% endfor %}
+
+    {% endfor %}
+
+  </div>
+
+  <footer>
+    {% include footer.html %}
+  </footer>
+</main>
+</body>
+</html>

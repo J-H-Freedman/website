@@ -5,8 +5,6 @@
     <title>
         ~{{ page.title }}~
     </title>
-
-
 </head>
 <body>
 <main>
@@ -29,9 +27,8 @@
                         {% endif %}
                     </h1>
                     {% if collection.thumbnail %}
-                    <img alt="pages thumbnail" src="{{ collection.thumbnail }}" class="thumbnail-img">
+                        <img alt="pages thumbnail" src="{{ collection.thumbnail }}" class="thumbnail-img">
                     {% endif %}
-                    </h1>
                 </a>
                 {% endfor %}
 

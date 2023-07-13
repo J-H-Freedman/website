@@ -16,35 +16,35 @@
 #      path: /gallery/B&W@L.html
 #      thumbnail: /images/thumbnails/BaW-thumbnail.jpg
 #
-#- category: Ai Curated
-#  collections:
-#    - name: Still Human
-#      path: /gallery/AiArt/StillHuman.html
-#      thumbnail: /images/AiArt/gorepunks/StillHuman/StillHuman000.png
-#    - name: Tower of Flesh and Bone
-#      path: /gallery/AiGeneratedArt/TowerOfFleshAndBone.html
-#      thumbnail: /images/AiArt/tower/TowerOfFleshAndBone001.png
-#    - name: Jungle of Veins and Blood
-#      path: gallery/AiGeneratedArt/JungleOfVeinsAndBlood.html
-#      thumbnail:
-#    - name: The Hive
-#      path: /gallery/AiGeneratedArt/TheHive.html
-#      thumbnail:
-#    - name: Void Spiral
-#      path: /gallery/AiGeneratedArt/voidspiral.html
-#      thumbnail:
-#    - name: But A Dream
-#      path: /gallery/AiGeneratedArt/ButADream.html
-#      thumbnail:
-#    - name: שרפים
-#      path: /gallery/AiGeneratedArt/שרפים.html
-#      thumbnail:
-#    - name: Gorepunks
-#      path: /gallery/AiGeneratedArt/gorepunks.html
-#      thumbnail:
-#    - name: Pop Art
-#      path: /gallery/AiGeneratedArt/PopArt.html
-#      thumbnail:
-#    - name: untitled
-#      path: /gallery/AiGeneratedArt/untitled.html
-#      thumbnail:
+- category: Ai Curated
+  collections:
+    - name: Still Human
+      path: /gallery/AiArt/StillHuman.html
+      thumbnail: /images/AiArt/gorepunks/StillHuman/StillHuman000.png
+    - name: Tower of Flesh and Bone
+      path: /gallery/AiGeneratedArt/TowerOfFleshAndBone.html
+      thumbnail: /images/AiArt/TowerOfFleshAndBone/TowerOfFleshAndBone001.png
+    - name: Jungle of Veins and Blood
+      path: gallery/AiGeneratedArt/JungleOfVeinsAndBlood.html
+      thumbnail: /images/AiArt/JungleOfVeinsAndBlood/JungleOfVeinsAndBlood924.png
+    - name: The Hive
+      path: /gallery/AiGeneratedArt/TheHive.html
+      thumbnail: /images/AiArt/TheHive/TheHive330.png
+    - name: Void Spiral
+      path: /gallery/AiGeneratedArt/voidspiral.html
+      thumbnail: /images/AiArt/voidspiral/VoidTouched001.png
+    - name: But A Dream
+      path: /gallery/AiGeneratedArt/ButADream.html
+      thumbnail: /images/AiArt/ButADream/ButADream324.png
+    - name: שרפים
+      path: /gallery/AiGeneratedArt/שרפים.html
+      thumbnail: /images/AiArt/Gorepunks/serefim/serifim1.jpg
+    - name: Gorepunks
+      path: /gallery/AiGeneratedArt/gorepunks.html
+      thumbnail: /images/AiArt/Gorepunks/misc_gorepunks/StillHuman098.png
+    - name: Pop Art
+      path: /gallery/AiGeneratedArt/PopArt.html
+      thumbnail: /images/AiArt/PopArt/GorepunkComic05.png
+    - name: untitled
+      path: /gallery/AiGeneratedArt/untitled.html
+      thumbnail: /images/AiArt/untitled/StillHuman999.png

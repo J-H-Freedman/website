@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+    <title>
+        ~{{ page.title }}~
+    </title>
+</head>
+<body>
+<main>
+    {% include navHeader.html %}
+
+    <div id="content">
+        <!-- contain thumbnails -->
+        <div id="thumbnail-container">
+            <!-- base thumbnail -->
+            {% for file in site.static_files %}
+                {% if file.path contains page.image_folder %}
+                    <a class="thumbnail" href="{{ file.path }}">
+                        <img alt="image thumbnail" src="{{ site.baseurl }}{{ file.path }}" class="thumbnail-img">
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <footer>
+        {% include footer.html %}
+    </footer>
+</main>
+</body>
+</html>

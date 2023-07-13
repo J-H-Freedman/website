@@ -20,7 +20,7 @@
   collections:
     - name: Still Human
       path: /gallery/AiArt/StillHuman.html
-      thumbnail: /images/AiArt/gorepunks/StillHuman/StillHuman000.png
+      thumbnail: /images/AiArt/Gorepunks/StillHuman/StillHuman000.png
     - name: Tower of Flesh and Bone
       path: /gallery/AiGeneratedArt/TowerOfFleshAndBone.html
       thumbnail: /images/AiArt/TowerOfFleshAndBone/TowerOfFleshAndBone001.png

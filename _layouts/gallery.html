@@ -14,7 +14,8 @@
         <!-- contain thumbnails -->
         <div id="thumbnail-container">
             <!-- base thumbnail -->
-            {% for file in site.static_files %}
+            {% assign files = site.static_files | where_exp: "file", "file.path contains page.image_folder" | sort: "name" %}
+            {% for file in files %}
                 {% if file.path contains page.image_folder %}
                     <a class="thumbnail" href="{{ file.path }}">
                         <img alt="image thumbnail" src="{{ site.baseurl }}{{ file.path }}" class="thumbnail-img">

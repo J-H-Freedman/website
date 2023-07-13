@@ -1,5 +1,5 @@
 ---
 layout: gallery
 title: misc
-image_folder: /images/AiArt/misc
+image_folder: /images/illustrations/misc
 ---

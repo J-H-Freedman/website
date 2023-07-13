@@ -1,0 +1,918 @@
+body {
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:link, a:hover, a:active {
+  color: magenta;
+}
+a:visited {
+  color: darkmagenta;
+}
+
+#content {
+  margin: 2% 5%;
+  padding: 1% 2.5%;
+  background-color: white;
+}
+
+.content-description {
+  font-family: "Alegreya", serif;
+  font-size: 1rem;
+  padding: 1% 2.5%;
+}
+
+.content-title {
+  font-size: 2rem;
+  font-family: "Germania One", cursive;
+}
+
+nav {
+  font-family: "Germania One", cursive;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-items: center;
+}
+nav a:link, nav a:hover, nav a:active {
+  color: white;
+}
+nav a:visited {
+  color: white;
+}
+
+.nav-image {
+  max-height: 3rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  padding: 1em;
+}
+
+/* @media (min-width: 1200px) {
+  #content {
+    margin: 0% 15%;
+  }
+} */
+@media (max-width: 1200px) {
+  .library-article {
+    padding: 1% 15%;
+    max-width: 75%;
+  }
+  .update-section {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  nav {
+    font-size: 2rem;
+  }
+  .nav-image {
+    display: none;
+  }
+  .thumbnail-title {
+    font-size: 2rem;
+  }
+  .content-title {
+    font-size: 2rem;
+  }
+  .slide {
+    max-width: 100%;
+  }
+  .library-article {
+    padding: 1% 2.5%;
+    max-width: 100%;
+  }
+  .update-article {
+    padding: 1% 2.5%;
+    max-width: 100%;
+  }
+}
+@media (orientation: portrait) {
+  #about-content {
+    flex-wrap: wrap;
+  }
+  .slide {
+    max-width: 100%;
+  }
+}
+body {
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:link, a:hover, a:active {
+  color: magenta;
+}
+a:visited {
+  color: darkmagenta;
+}
+
+#content {
+  margin: 2% 5%;
+  padding: 1% 2.5%;
+  background-color: white;
+}
+
+.content-description {
+  font-family: "Alegreya", serif;
+  font-size: 1rem;
+  padding: 1% 2.5%;
+}
+
+.content-title {
+  font-size: 2rem;
+  font-family: "Germania One", cursive;
+}
+
+nav {
+  font-family: "Germania One", cursive;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-items: center;
+}
+nav a:link, nav a:hover, nav a:active {
+  color: white;
+}
+nav a:visited {
+  color: white;
+}
+
+.nav-image {
+  max-height: 3rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  padding: 1em;
+}
+
+/* @media (min-width: 1200px) {
+  #content {
+    margin: 0% 15%;
+  }
+} */
+@media (max-width: 1200px) {
+  .library-article {
+    padding: 1% 15%;
+    max-width: 75%;
+  }
+  .update-section {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  nav {
+    font-size: 2rem;
+  }
+  .nav-image {
+    display: none;
+  }
+  .thumbnail-title {
+    font-size: 2rem;
+  }
+  .content-title {
+    font-size: 2rem;
+  }
+  .slide {
+    max-width: 100%;
+  }
+  .library-article {
+    padding: 1% 2.5%;
+    max-width: 100%;
+  }
+  .update-article {
+    padding: 1% 2.5%;
+    max-width: 100%;
+  }
+}
+@media (orientation: portrait) {
+  #about-content {
+    flex-wrap: wrap;
+  }
+  .slide {
+    max-width: 100%;
+  }
+}
+#about-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#about-picture {
+  max-width: 50%;
+}
+
+#email {
+  font-family: "Germania One", cursive;
+  color: magenta;
+  font-size: 3rem;
+}
+
+body {
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:link, a:hover, a:active {
+  color: magenta;
+}
+a:visited {
+  color: darkmagenta;
+}
+
+#content {
+  margin: 2% 5%;
+  padding: 1% 2.5%;
+  background-color: white;
+}
+
+.content-description {
+  font-family: "Alegreya", serif;
+  font-size: 1rem;
+  padding: 1% 2.5%;
+}
+
+.content-title {
+  font-size: 2rem;
+  font-family: "Germania One", cursive;
+}
+
+nav {
+  font-family: "Germania One", cursive;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-items: center;
+}
+nav a:link, nav a:hover, nav a:active {
+  color: white;
+}
+nav a:visited {
+  color: white;
+}
+
+.nav-image {
+  max-height: 3rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  padding: 1em;
+}
+
+/* @media (min-width: 1200px) {
+  #content {
+    margin: 0% 15%;
+  }
+} */
+@media (max-width: 1200px) {
+  .library-article {
+    padding: 1% 15%;
+    max-width: 75%;
+  }
+  .update-section {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  nav {
+    font-size: 2rem;
+  }
+  .nav-image {
+    display: none;
+  }
+  .thumbnail-title {
+    font-size: 2rem;
+  }
+  .content-title {
+    font-size: 2rem;
+  }
+  .slide {
+    max-width: 100%;
+  }
+  .library-article {
+    padding: 1% 2.5%;
+    max-width: 100%;
+  }
+  .update-article {
+    padding: 1% 2.5%;
+    max-width: 100%;
+  }
+}
+@media (orientation: portrait) {
+  #about-content {
+    flex-wrap: wrap;
+  }
+  .slide {
+    max-width: 100%;
+  }
+}
+#slide-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: default;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 3%;
+}
+#slide-container .slide {
+  max-width: 45%;
+  align-self: flex-start;
+  padding-bottom: 2.5em;
+}
+#slide-container .gallery-image {
+  max-height: 90vh;
+  object-fit: scale-down;
+}
+
+body {
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:link, a:hover, a:active {
+  color: magenta;
+}
+a:visited {
+  color: darkmagenta;
+}
+
+#content {
+  margin: 2% 5%;
+  padding: 1% 2.5%;
+  background-color: white;
+}
+
+.content-description {
+  font-family: "Alegreya", serif;
+  font-size: 1rem;
+  padding: 1% 2.5%;
+}
+
+.content-title {
+  font-size: 2rem;
+  font-family: "Germania One", cursive;
+}
+
+nav {
+  font-family: "Germania One", cursive;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-items: center;
+}
+nav a:link, nav a:hover, nav a:active {
+  color: white;
+}
+nav a:visited {
+  color: white;
+}
+
+.nav-image {
+  max-height: 3rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  padding: 1em;
+}
+
+/* @media (min-width: 1200px) {
+  #content {
+    margin: 0% 15%;
+  }
+} */
+@media (max-width: 1200px) {
+  .library-article {
+    padding: 1% 15%;
+    max-width: 75%;
+  }
+  .update-section {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  nav {
+    font-size: 2rem;
+  }
+  .nav-image {
+    display: none;
+  }
+  .thumbnail-title {
+    font-size: 2rem;
+  }
+  .content-title {
+    font-size: 2rem;
+  }
+  .slide {
+    max-width: 100%;
+  }
+  .library-article {
+    padding: 1% 2.5%;
+    max-width: 100%;
+  }
+  .update-article {
+    padding: 1% 2.5%;
+    max-width: 100%;
+  }
+}
+@media (orientation: portrait) {
+  #about-content {
+    flex-wrap: wrap;
+  }
+  .slide {
+    max-width: 100%;
+  }
+}
+.library-section {
+  padding: 5% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.library-article {
+  font-family: "Alegreya", serif;
+  padding: 1% 25%;
+  font-size: 1rem;
+  max-width: 50%;
+  align-items: center;
+}
+
+.divider {
+  font-family: "Germania One", cursive;
+  text-align: center;
+  font-size: 3rem;
+  color: cyan;
+}
+
+body {
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:link, a:hover, a:active {
+  color: magenta;
+}
+a:visited {
+  color: darkmagenta;
+}
+
+#content {
+  margin: 2% 5%;
+  padding: 1% 2.5%;
+  background-color: white;
+}
+
+.content-description {
+  font-family: "Alegreya", serif;
+  font-size: 1rem;
+  padding: 1% 2.5%;
+}
+
+.content-title {
+  font-size: 2rem;
+  font-family: "Germania One", cursive;
+}
+
+nav {
+  font-family: "Germania One", cursive;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-items: center;
+}
+nav a:link, nav a:hover, nav a:active {
+  color: white;
+}
+nav a:visited {
+  color: white;
+}
+
+.nav-image {
+  max-height: 3rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  padding: 1em;
+}
+
+/* @media (min-width: 1200px) {
+  #content {
+    margin: 0% 15%;
+  }
+} */
+@media (max-width: 1200px) {
+  .library-article {
+    padding: 1% 15%;
+    max-width: 75%;
+  }
+  .update-section {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  nav {
+    font-size: 2rem;
+  }
+  .nav-image {
+    display: none;
+  }
+  .thumbnail-title {
+    font-size: 2rem;
+  }
+  .content-title {
+    font-size: 2rem;
+  }
+  .slide {
+    max-width: 100%;
+  }
+  .library-article {
+    padding: 1% 2.5%;
+    max-width: 100%;
+  }
+  .update-article {
+    padding: 1% 2.5%;
+    max-width: 100%;
+  }
+}
+@media (orientation: portrait) {
+  #about-content {
+    flex-wrap: wrap;
+  }
+  .slide {
+    max-width: 100%;
+  }
+}
+.update-section {
+  padding: 2.5% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.update-article {
+  font-family: "Alegreya", serif;
+  max-width: 70%;
+  font-size: 1rem;
+  padding: 0 20%;
+}
+
+.update-date {
+  font-family: "Germania One", cursive;
+  font-size: 3rem;
+}
+
+body {
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:link, a:hover, a:active {
+  color: magenta;
+}
+a:visited {
+  color: darkmagenta;
+}
+
+#content {
+  margin: 2% 5%;
+  padding: 1% 2.5%;
+  background-color: white;
+}
+
+.content-description {
+  font-family: "Alegreya", serif;
+  font-size: 1rem;
+  padding: 1% 2.5%;
+}
+
+.content-title {
+  font-size: 2rem;
+  font-family: "Germania One", cursive;
+}
+
+nav {
+  font-family: "Germania One", cursive;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-items: center;
+}
+nav a:link, nav a:hover, nav a:active {
+  color: white;
+}
+nav a:visited {
+  color: white;
+}
+
+.nav-image {
+  max-height: 3rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  padding: 1em;
+}
+
+/* @media (min-width: 1200px) {
+  #content {
+    margin: 0% 15%;
+  }
+} */
+@media (max-width: 1200px) {
+  .library-article {
+    padding: 1% 15%;
+    max-width: 75%;
+  }
+  .update-section {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  nav {
+    font-size: 2rem;
+  }
+  .nav-image {
+    display: none;
+  }
+  .thumbnail-title {
+    font-size: 2rem;
+  }
+  .content-title {
+    font-size: 2rem;
+  }
+  .slide {
+    max-width: 100%;
+  }
+  .library-article {
+    padding: 1% 2.5%;
+    max-width: 100%;
+  }
+  .update-article {
+    padding: 1% 2.5%;
+    max-width: 100%;
+  }
+}
+@media (orientation: portrait) {
+  #about-content {
+    flex-wrap: wrap;
+  }
+  .slide {
+    max-width: 100%;
+  }
+}
+#splash {
+  background-color: black;
+  height: 100%;
+}
+
+#splash-image {
+  margin: auto;
+  display: block;
+  height: 80vh;
+  max-width: 80%;
+}
+
+#bottom-nav {
+  position: fixed;
+  width: 100%;
+  bottom: 10%;
+}
+#bottom-nav a:link, #bottom-nav a:hover, #bottom-nav a:active {
+  color: white;
+}
+#bottom-nav a:visited {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:link, a:hover, a:active {
+  color: magenta;
+}
+a:visited {
+  color: darkmagenta;
+}
+
+#content {
+  margin: 2% 5%;
+  padding: 1% 2.5%;
+  background-color: white;
+}
+
+.content-description {
+  font-family: "Alegreya", serif;
+  font-size: 1rem;
+  padding: 1% 2.5%;
+}
+
+.content-title {
+  font-size: 2rem;
+  font-family: "Germania One", cursive;
+}
+
+nav {
+  font-family: "Germania One", cursive;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-items: center;
+}
+nav a:link, nav a:hover, nav a:active {
+  color: white;
+}
+nav a:visited {
+  color: white;
+}
+
+.nav-image {
+  max-height: 3rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  padding: 1em;
+}
+
+/* @media (min-width: 1200px) {
+  #content {
+    margin: 0% 15%;
+  }
+} */
+@media (max-width: 1200px) {
+  .library-article {
+    padding: 1% 15%;
+    max-width: 75%;
+  }
+  .update-section {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  nav {
+    font-size: 2rem;
+  }
+  .nav-image {
+    display: none;
+  }
+  .thumbnail-title {
+    font-size: 2rem;
+  }
+  .content-title {
+    font-size: 2rem;
+  }
+  .slide {
+    max-width: 100%;
+  }
+  .library-article {
+    padding: 1% 2.5%;
+    max-width: 100%;
+  }
+  .update-article {
+    padding: 1% 2.5%;
+    max-width: 100%;
+  }
+}
+@media (orientation: portrait) {
+  #about-content {
+    flex-wrap: wrap;
+  }
+  .slide {
+    max-width: 100%;
+  }
+}
+#thumbnail-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 2em;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-family: "Germania One", cursive;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.thumbnail {
+  flex: 0 1 34%;
+  align-self: flex-end;
+}
+
+.thumbnail-title {
+  color: magenta;
+  text-align: center;
+  font-family: "Germania One", cursive;
+  font-size: 2rem;
+}
+
+.thumbnail-img {
+  width: 100%;
+  border-style: solid;
+  border-color: black;
+}
+
+.video-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  width: 640px;
+  height: 360px;
+  border: none;
+}
+
+.content-title {
+  text-align: center;
+}
+
+.content-description {
+  padding: 0 10% 1% 10%;
+}
+
+@media (max-width: 800px) {
+  .thumbnail {
+    flex: 0 0 60%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

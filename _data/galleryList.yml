@@ -1,4 +1,4 @@
-- category: Illustrations
+- category: Illustration Galleries
   collections:
     - name: pages
       path: /gallery/pages.html
@@ -16,7 +16,7 @@
 #      path: /gallery/B&W@L.html
 #      thumbnail: /images/thumbnails/BaW-thumbnail.jpg
 #
-- category: Ai Curated
+- category: Curated Ai Galleries
   collections:
     - name: Still Human
       path: /gallery/AiGeneratedArt/StillHuman.html

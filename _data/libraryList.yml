@@ -12,14 +12,16 @@
     - name: Yet Another Overhaul
       subtitle: Content Is King
       path: /2023/06/25/Yet-Another-Overhaul.html
-
+    - name: A Love Letter to Riichi
+      subtitle: Chess, Poker, Gambling, and the Power of Media
+      path: /2023-11-16-ALoveLetterToRiichi.html
 #- category: Zines
 
 - category: Misc
   collections:
-    - name: 2020
+    - name: '2020'
       path: 2020.html
-    - name: 2023
+    - name: '2023'
       path: 2023.html
-    - name: All
+    - name: Everything
       path: updates.html

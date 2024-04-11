@@ -8,6 +8,8 @@ prof_image: /images/profile_picture.png
 ---
 
 
-J.H. Freedman is a multimedia artist with a background in animation. Throughout the mediums they work in, there is a dark atmosphere with a comic undertone. They see the horror of occupying meat powered by bio-chemicals and find absurdity societal structures they are forced to participate in.
+I'm a writer and multimedia artist with a background in animation. But over the years it stopped being that simple. I started programming a bit after 2020 which has snowballed into a profession shift. Ironically this has given me more time to write and draw since college. 
 
-They utilize the surrealism and horror in their art as tools to explore sociopolitical situations and the characters that would arise from them.
+In early 2023, I got into Ai generated art and found my niche in disturbing images using made-up words and embracing the medium's sludge. I dipped my toes in the Ai horror scene which I might revisit. 
+
+I'm currently writing several structured writing pieces as I search for my next 'big project.' 

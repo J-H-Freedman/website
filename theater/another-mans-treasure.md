@@ -1,9 +1,10 @@
 ---
 layout: post-media
+title: Another Man's Treasure
 content_title: Another Man's Treasure
-content_description: This is the simple story of a jackal wandering the desert looking for a drink.  He gets what he wants at a cadaver's expense and suffers the consequences.
+content_description: A jackal wanders the desert looking for a drink.  He gets what he wants at a cadaver's expense.
 ---
 
 <div class="video-container">
-    <iframe src="https://player.vimeo.com/video/126063436" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <iframe width="720" height="576" src="https://www.youtube.com/embed/Wq93-Apvb-I?si=c3RdepMq6IQwp4PA" allowfullscreen></iframe>
 </div>

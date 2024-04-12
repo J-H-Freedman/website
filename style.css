@@ -896,8 +896,8 @@ footer a {
 }
 
 iframe {
-  width: 640px;
-  height: 360px;
+  /* width: 640px;
+  height: 360px; */
   border: none;
 }
 

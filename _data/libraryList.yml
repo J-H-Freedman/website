@@ -23,7 +23,7 @@
       path: 2020.html
     - name: '2023'
       path: 2023.html
-   # - name: '2024'
-   #   path: 2024.html
+    - name: '2024'
+      path: 2024.html
     - name: Everything
       path: updates.html

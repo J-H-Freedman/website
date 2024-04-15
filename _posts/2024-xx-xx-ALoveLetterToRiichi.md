@@ -4,7 +4,7 @@ content_title: A Love Letter to Riichi
 content_description: Chess, Poker, Gambling, and the Power of Media
 ---
 
-#Chess
+# Chess
 
 One of my formative memories is playing chess with my dad. I don't really remember a time when I didn't know what the pieces did. Maybe castling and *en passant* but the rest of what I learned is common patterns and theory-- e.g. forks, pins, and skewers. Then there were patterns I learned, particularly in the end game in which the game when the pieces remaining have specific traps, escapes, and stalemates. I never really studied any of them other than the scenario when there's only one pawn left. 
 

@@ -6,6 +6,6 @@
     - name: Sanctuary for Independent Media intro
       path: sanctuary-for-independent-media-intro.html
       thumbnail: /images/thumbnails/sanctuary-thumbnail.jpg  # fixed
-    - name: misc micro-animations
-      path: micro-animation.html
-      thumbnail: /images/thumbnails/AMPT-thumbnail.jpg  # fixed
+#    - name: misc micro-animations
+#      path: micro-animation.html
+#      thumbnail: /images/thumbnails/AMPT-thumbnail.jpg  # fixed

@@ -1,0 +1,11 @@
+- category: Digital Art
+  collections:
+    - name: pages
+      path: /gallery/digitalArt/pages.html
+      thumbnail: /images/thumbnails/pages-thumbnail.jpg
+    - name: portraits
+      path: /gallery/digitalArt/portraits.html
+      thumbnail: /images/thumbnails/portraits-thumbnail.jpg
+    - name: misc
+      path: /gallery/digitalArt/misc.md
+      thumbnail: /images/thumbnails/misc-thumbnail.jpg

@@ -1,8 +1,8 @@
-- category: Creative Writing
-  collections:
-    - name: A Tower of Flesh & Bone
-      subtitle: Sample/Teaser
-      path: /2023/09/24/ToFaB.html
+#- category: Creative Writing
+#  collections:
+#    - name: A Tower of Flesh & Bone
+#      subtitle: Sample/Teaser
+#      path: /2023/09/24/ToFaB.html
 
 - category: Structured Writing
   collections:
@@ -25,5 +25,5 @@
       path: 2023.html
     - name: '2024'
       path: 2024.html
-    - name: Everything
+    - name: All
       path: updates.html

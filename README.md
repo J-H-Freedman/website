@@ -6,9 +6,12 @@ At first I used my site as a portfolio. It required me to introspect about ~~art
 ## What is Jekyll?
 
 # How to add media to this site
+Each page's layout is recorded in _data as informed by its respective "List.yml". For example, to add an addition to the Gallery, use galleryList.yml to do so.
 
 ## Layouts
 
 ### post-media & post-writing
 This is the most common kind of update
+
+
 

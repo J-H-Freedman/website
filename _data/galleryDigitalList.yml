@@ -7,5 +7,5 @@
       path: /gallery/digitalArt/portraits.html
       thumbnail: /images/thumbnails/portraits-thumbnail.jpg
     - name: misc
-      path: /gallery/digitalArt/misc.md
+      path: /gallery/digitalArt/misc.html
       thumbnail: /images/thumbnails/misc-thumbnail.jpg

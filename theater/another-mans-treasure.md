@@ -1,7 +1,7 @@
 ---
 layout: post-media
 title: Another Man's Treasure
-content_title: Another Man's Treasure
+content_title: Drink (Another Man's Treasure)
 content_description: A jackal wanders the desert looking for a drink.  He gets what he wants at a cadaver's expense.
 ---
 

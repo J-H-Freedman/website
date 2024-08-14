@@ -1,5 +1,7 @@
 ---
 layout: gallery
-title: voidspiral
+title: Voidspiral
 image_folder: /images/AiArt/voidspiral
+content_title: Voidspiral
+content_description: 
 ---

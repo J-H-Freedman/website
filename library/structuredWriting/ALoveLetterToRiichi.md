@@ -14,9 +14,6 @@ My favorite part was, and still is, the middle game. That's where the cleverness
 
 To enhance my strengths, my dad taught me the only opening I have ever used: King's Indian Defense. It is an opening that lets the opponent occupy the coveted center of the board in favor controlling those spaces from the flank. It is flexible, reactive, and sneaky. I would often wind up in the Sämisch or Averbakh variations without knowing it. It placed me in satisfying tournament ranks.
 
-
-
-
 ... but I eventually stopped. And then my dad did too. I wondered why for a long time. He then complained to me about how he was at the level in which his opponents memorized hundred year old games played by central and eastern Europeans. I guess I had that to a lesser extent with feeling like I had to memorize openings and the responses to openings and so on. This new stack of opening adaptation until mid-game just sounded kind of boring. It gives the illusion I need to study the correct answers or I'll lose. I wonder to what extent my dad was feeling the same way.
 
 /** (at end?) */

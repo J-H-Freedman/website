@@ -18,9 +18,9 @@
     - name: But A Dream
       path: /gallery/AiGeneratedArt/ButADream.html
       thumbnail: /images/AiArt/ButADream/ButADream324.png
-    - name: שרפים
-      path: /gallery/AiGeneratedArt/serifim.html
-      thumbnail: /images/AiArt/gorepunks/serefim/serifim1.jpg
+#    - name: שרפים
+#      path: /gallery/AiGeneratedArt/serifim.html
+#      thumbnail: /images/AiArt/gorepunks/serefim/serifim1.jpg
     - name: Gorepunks
       path: /gallery/AiGeneratedArt/gorepunks.html
       thumbnail: /images/AiArt/gorepunks/misc_gorepunks/StillHuman072.png

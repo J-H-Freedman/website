@@ -1,5 +1,5 @@
-#- Category: Physical Art
+# - category: Physical Art
 #  collections:
-#    - name:
-#      path:
-#      thumbnail:
+#    - name: Physical Gallery
+#     path: /gallery/physicalArt/index.html
+#     thumbnail: /images/thumbnails/physical-thumbnail.jpg

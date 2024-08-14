@@ -1,8 +1,8 @@
 - category: Art Galleries
   collections:
-#    - name: Physical Gallery
-#      path:
-#      thumbnail:
+    - name: Physical Gallery
+      path: /gallery/physicalArt/index.html
+      thumbnail: /images/thumbnails/physical-thumbnail.jpg
     - name: Digital Galleries
       path: /gallery/digitalArt/index.html
       thumbnail: /images/thumbnails/pages-thumbnail.jpg

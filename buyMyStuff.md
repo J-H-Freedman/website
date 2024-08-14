@@ -2,17 +2,20 @@
 layout: about
 title: Buy My Stuff
 content_title: Buy My Stuff
-prof_image: /images/icons/dot-full.svg
+prof_image: /images/icons/dot-full.svg 
 ---
 
 # Original, Signed Charcoal & Pastel Compositions
+
 18"x24"
+<br>
 $500
 
 <a href="https://ko-fi.com/s/d22d5c0c5f"><img src="/images/icons/shop-black.svg"></a>
 
 # Limited, Signed Digital Prints
 11"x14"
+<br>
 $100
 
 <a href="https://ko-fi.com/s/5a663f15ad"><img src="/images/icons/shop-black.svg"></a>

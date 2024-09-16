@@ -2,7 +2,7 @@
   collections:
     - name: Still Human
       path: /gallery/AiGeneratedArt/StillHuman.html
-      thumbnail: /images/AiArt/gorepunks/StillHuman/StillHuman000.png
+      thumbnail: /images/AiArt/Gorepunks/StillHuman/StillHuman000.png
     - name: Tower of Flesh and Bone
       path: /gallery/AiGeneratedArt/TowerOfFleshAndBone.html
       thumbnail: /images/AiArt/TowerOfFleshAndBone/TowerOfFleshAndBone001.png
@@ -21,9 +21,9 @@
 #    - name: שרפים
 #      path: /gallery/AiGeneratedArt/serifim.html
 #      thumbnail: /images/AiArt/gorepunks/serefim/serifim1.jpg
-    - name: Gorepunks
-      path: /gallery/AiGeneratedArt/gorepunks.html
-      thumbnail: /images/AiArt/gorepunks/misc_gorepunks/StillHuman072.png
+#    - name: Gorepunks
+#      path: /gallery/AiGeneratedArt/gorepunks.html
+#      thumbnail: /images/AiArt/gorepunks/misc_gorepunks/StillHuman072.png
 #    - name: Pop Art
 #      path: /gallery/AiGeneratedArt/PopArt.html
 #      thumbnail: /images/AiArt/PopArt/GorepunkComic05.png

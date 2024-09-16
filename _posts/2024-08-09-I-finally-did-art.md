@@ -11,3 +11,4 @@ Yet I keep thinking of <a href="theater/another-mans-treasure.html">Another Man'
 I've come to accept that this false dilemma that only exists within the framework of specific algorithmic rewards and/or monetary compensation. I don't need to write the Great American Novel<sup>TM</sup> when I often express myself in flash fiction; I don't need to make a graphic novel when 'zines have sufficed ~~so far~~; I don't need to develop an art style that isn't mine to spend 40+ hours on a drawing I'll never find good enough.
 
 I am beginning to trust who I am and to do art for myself, no one else. Let's see how far it goes...
+

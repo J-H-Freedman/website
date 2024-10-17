@@ -12,7 +12,11 @@
     - name: Yet Another Overhaul
       subtitle: Content Is King
       path: /2023/06/25/Yet-Another-Overhaul.html
-    #- name: A Love Letter to Riichi
+    - name: Revisiting Catch 33
+      subtitle: I finally get it
+      path: /2024/10/17/catch-33.html
+
+      #- name: A Love Letter to Riichi
       #subtitle: Chess, Poker, Gambling, and the Power of Media
       #path: /library/structuredWriting/ALoveLetterToRiichi.html
 #- category: Zines

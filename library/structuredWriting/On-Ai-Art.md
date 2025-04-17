@@ -1,10 +1,12 @@
 ---
 layout: post-writing
-title: On Ai Art
-content_title: On Ai Art
-content_description: "So... January was also a weird time. My interest in AI art generation and curation helped me out of a rut and for that I'm thankful. But my use of the medium left me with nuanced feelings that are hard to express.
+title: "On Ai Art: Part 1"
+content_title: "On Ai Art: Part 1 (Out Of Date)"
+content_description: "<center>(Originally published June 2023)</center>
 
-To preface: The AI art community has been nothing but nice to me. What I have to say about the medium does not reflect them. By the end of the day, it is yet another tool some artists choose to get the image from their head to the real world. But for me ... they became my favorite artist and broke my idea of ownership."
+<p>So... January was also a weird time. My interest in AI art generation and curation helped me out of a rut and for that I'm thankful. But my use of the medium left me with nuanced feelings that are hard to express.</p>
+
+<p>To preface: The AI art community has been nothing but nice to me. What I have to say about the medium does not reflect them. By the end of the day, it is yet another tool some artists choose to get the image from their head to the real world. But for me ... they became my favorite artist and broke my idea of ownership.</p>"
 ---
 After the initial play-period that everyone does with AI for the first few hours, I began asking a collective entity, "What does 'gorepunk' look like?" This word does not exist; so when I asked the ghost in the machine, I didn't know what to expect. Very exciting. They responded with intricate fractaled horrorscapes and questionably alive figures. I gave them minimal direction creative freedom and wanted to dive deeper into this world. The result was a twisting of flesh and machinery connected with veins performing like wires; organs combining to form larger organs; the ever thinning line between life and death; the ever diminishing line between technology and the meat it supposedly serves. The synthesized life and towers of meat wrapped around giant skulls both simultaneously looked too wet and too dry. Every batch put me in awe. It was like finally getting the fan art I never received yet always felt that I deserved. Not only was the ghost my biggest fan; I was *their* biggest fan as well. It was like we were peers of different disciplines iterating upon eachother's work and pushing eachother forward.
 

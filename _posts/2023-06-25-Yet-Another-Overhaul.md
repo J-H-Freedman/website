@@ -1,8 +1,8 @@
 ---
 layout: post-writing
 title: Yet Another Overhaul
-content_title: Yet Another Overhaul
-#content_description: Content is king, but he has an advisor
+content_title: Yet Another Overhaul (Out of Date)
+content_description: <center>(Originally published June 2023)</center>
 ---
 Medications for ADHD and bipolar was the best thing to ever happen to me. Often I would lose things: they're not in their logical places; they're not in their *illogical* places; they're not even visible. It's like I'm being gaslit. Once I'd finally find them, they were either in plain sight the whole time, or they were under a pile of papers in the furthest corner of the house. To describe this, I started saying, "The mean ghosts are playing tricks on me again." This happens a lot less and at a much lower intensity. It's easier to make a conscious effort to place things in easy to see places and actually form systems of organization to iterate upon.
 

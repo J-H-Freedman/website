@@ -7,10 +7,13 @@
 - category: Structured Writing
   collections:
     - name: On Ai Art
-      subtitle: My favorite artist doesn't exist
+      subtitle: Part 1; My favorite artist doesn't exist (Out of Date)
       path: /library/structuredWriting/On-Ai-Art.html
+    - name: On Ai Art
+      subtitle: Part 2; The Big Letdown
+      path: /2025/04/17/Reconstruction.html
     - name: Yet Another Overhaul
-      subtitle: Content Is King
+      subtitle: Content Is King (Out of Date)
       path: /2023/06/25/Yet-Another-Overhaul.html
     - name: Revisiting Catch 33
       subtitle: I finally get it
@@ -29,5 +32,7 @@
       path: 2023.html
     - name: '2024'
       path: 2024.html
+    - name: '2025'
+      path: 2025.html
     - name: All
       path: updates.html

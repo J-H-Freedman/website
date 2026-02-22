@@ -6,6 +6,6 @@
     - name: Digital Galleries
       path: /gallery/digitalArt/index.html
       thumbnail: /images/thumbnails/pages-thumbnail.jpg
-    - name: Generated Galleries
-      path: /gallery/AiGeneratedArt/index.html
-      thumbnail: /images/AiArt/gorepunks/StillHuman/StillHuman000.png
+#    - name: Generated Galleries
+#      path: /gallery/AiGeneratedArt/index.html
+#      thumbnail: /images/AiArt/gorepunks/StillHuman/StillHuman000.png

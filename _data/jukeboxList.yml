@@ -1,0 +1,8 @@
+- category: Records
+  collections:
+    - name: But a Dream
+      path: /jukebox/ButADream.html
+      thumbnail: /images/albumArt/ButADream-cover.jpg
+#    - name: Generated Galleries
+#      path: /gallery/AiGeneratedArt/index.html
+#      thumbnail: /images/AiArt/gorepunks/StillHuman/StillHuman000.png

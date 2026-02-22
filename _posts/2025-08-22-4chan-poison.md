@@ -42,9 +42,9 @@ but most of these guys are from sockpuppet accounts with bullshit names and pics
 
 In other words, most of these people are anonymous
 
+*UNFINISHED ARTICLE. COME BACK LATER*
+
+~~# Case Study~~
 
 
-# Case Study
-
-
-[^1]: https://knightcolumbia.org/content/understanding-social-media-recommendation-algorithms
+~~[^1]: https://knightcolumbia.org/content/understanding-social-media-recommendation-algorithms~~

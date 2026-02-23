@@ -37,5 +37,7 @@
       path: 2024.html
     - name: '2025'
       path: 2025.html
+    - name: '2026'
+      path: 2026.html
     - name: All
       path: updates.html
